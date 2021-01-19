@@ -813,6 +813,7 @@ GameObject:
   - component: {fileID: 934970991}
   - component: {fileID: 934970993}
   - component: {fileID: 934970992}
+  - component: {fileID: 934970994}
   m_Layer: 0
   m_Name: BlueGoal
   m_TagString: Blue
@@ -908,6 +909,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &934970994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934970990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a870f37c0e8194b8dad6084de60530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSolved: 0
 --- !u!1 &985832519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,6 +1059,7 @@ GameObject:
   - component: {fileID: 1007954141}
   - component: {fileID: 1007954143}
   - component: {fileID: 1007954142}
+  - component: {fileID: 1007954144}
   m_Layer: 0
   m_Name: RedGoal
   m_TagString: Red
@@ -1140,6 +1155,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1007954144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007954140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a870f37c0e8194b8dad6084de60530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSolved: 0
 --- !u!1 &1041241524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,6 +2174,7 @@ GameObject:
   - component: {fileID: 1817883772}
   - component: {fileID: 1817883774}
   - component: {fileID: 1817883773}
+  - component: {fileID: 1817883775}
   m_Layer: 0
   m_Name: GreenGoal
   m_TagString: Green
@@ -2241,6 +2270,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1817883775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817883771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a870f37c0e8194b8dad6084de60530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSolved: 0
 --- !u!1 &1885728270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,6 +2518,7 @@ GameObject:
   - component: {fileID: 2128837636}
   - component: {fileID: 2128837638}
   - component: {fileID: 2128837637}
+  - component: {fileID: 2128837639}
   m_Layer: 0
   m_Name: OrangeGoal
   m_TagString: Orange
@@ -2571,3 +2614,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2128837639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128837635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a870f37c0e8194b8dad6084de60530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSolved: 0
